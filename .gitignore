@@ -1,0 +1,45 @@
+# ASP.NET build and temporary files
+obj/
+bin/
+*.user
+
+# Visual Studio files
+*.suo
+*.cache
+*.csproj.user
+.vs/
+
+# .NET SDK
+**/bin/
+**/obj/
+
+# Build results
+*_api_*.json
+*.nupkg
+*.snupkg
+*.sw?
+*.log
+
+# NuGet
+*.nuget.props
+*.nuget.targets
+.projectpaket.assets.json
+paket.lock
+paket.references
+
+# MSTest test Results
+TestResults/
+
+# Build directory
+_build/
+
+# .NET Core Precompiled cache
+precompiled/
+
+# Razor precompiled views
+*_RazorPreCompile*
+
+# NPM / Yarn
+node_modules/
+npm-debug.log
+yarn-error.log
